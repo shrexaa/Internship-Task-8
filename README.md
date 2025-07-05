@@ -1,12 +1,5 @@
 # Internship-Task-8
 # 🧠 Task 8: Clustering with K-Means (AI & ML Internship)
-
-✅ Add this at the beginning of your script:
-```python
-import os
-os.environ["OMP_NUM_THREADS"] = "1"
-
-
 ## 📌 Objective
 
 The goal of this task is to perform **unsupervised learning** using the **K-Means Clustering** algorithm to group customers based on features such as Annual Income and Spending Score. This allows us to understand customer segments and target them accordingly.
@@ -68,4 +61,6 @@ The goal of this task is to perform **unsupervised learning** using the **K-Mean
 
 ## ⚠️ Warning Fix
 
-If you see the following warning on Windows:
+If you see the following warning on Windows:UserWarning: KMeans is known to have a memory leak on Windows with MKL...
+
+
